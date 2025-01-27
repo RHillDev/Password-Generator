@@ -1,0 +1,146 @@
+body {
+    background-color: #3B3743;
+}
+
+#pwGen-container {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 500px;
+    background-color: #2F4B48;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 0 0 20px -5px black;
+}
+
+#topText {
+    font: 40px Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #F5F7F3;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+#bottomText {
+    font: 40px Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #ED6A5A;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+#sloganText {
+    font: 15px Helvetica, sans-serif;
+    font-weight: normal;
+    color: #F5F7F3;
+    margin-top: 5px; 
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#checkbox-container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #375855;
+}
+
+#symbolsCheckbox {
+    height: 30px;
+    width: 30px;
+    margin: 10px auto;
+    margin-top: 20px;
+    background-color: #375855;
+}
+
+label {
+    text-align: center;
+    color: #F5F7F3;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#pw-length {
+    height: 40px;
+    width: 200px;
+    margin: 10px auto;
+    background-color: #375855;
+    color: #F5F7F3;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#generator-btn {
+    height: 40px;
+    width: 200px;
+    margin: 10px auto;
+    background-color: #ED6A5A;
+    font-size: 15px;
+    color: #F5F7F3;
+    border: none;
+    border-radius: 5px;
+}
+
+#pw-container {
+    margin: 20px auto;
+}
+
+#horizontal-line {
+    border: 2px solid #375855;
+    width: 400px;
+    margin: 20px auto 10px auto;
+    border-radius: 2px;
+}
+
+#passwordOne {
+    text-align: center;
+    color: #F5F7F3;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    height: 40px;
+    width: 175px;
+    border: none;
+    border-radius: 5px;
+    background-color: #375855;
+}
+
+#passwordTwo {
+    text-align: center;
+    color: #F5F7F3;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    height: 40px;
+    width: 175px;
+    border: none;
+    border-radius: 5px;
+    background-color: #375855;
+}
+
+#btn-container {
+    margin: 20px auto;
+}
+
+.copy-btn {
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ED6A5A;
+    color: #F5F7F3;
+    border: none;
+    border-radius: 5px;
+}

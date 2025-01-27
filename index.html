@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="pwGen-container">
+            <h1 id="topText">Generate a</h1>
+            <h1 id="bottomText">random password</h1>
+            <p  id="sloganText">Have confidence in your online security.</p>
+            <div id="checkbox-container">
+                <input type="checkbox" id="symbolsCheckbox" name="With symbols?">
+                <label for="symbolsCheckbox">Include symbols?</label>
+            </div>
+            <input id="pw-length" type="number" placeholder="Password length..." min="10" max="20">
+            <button id="generator-btn" onclick="generate()">Generate passwords</button>
+            <div id="horizontal-line"></div>
+            <div id="pw-container">
+                <div id="passwords">
+                    <input id="passwordOne" type="text" readonly>
+                    <input id="passwordTwo" type="text" readonly>
+                </div>
+            </div>
+            <div id="btn-container">
+                <button class="copy-btn" onclick="copyOne()">Copy</button>
+                <button class="copy-btn" onclick="copyTwo()">Copy</button>
+            </div>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
